@@ -12,12 +12,13 @@ const {
 
 export interface IThemeInterface {
   primaryColor: string;
-  primaryColorInverted: string;
+  secondaryColor: string;
 }
 
 export const theme = {
-  primaryColor: "#e9e9eb",
-  primaryColorInverted:"#9e9e9b"
+  primaryColor: "black",
+  secondaryColor:"lightgray",
+
 };
 
 export { css, createGlobalStyle, keyframes, ThemeProvider };
