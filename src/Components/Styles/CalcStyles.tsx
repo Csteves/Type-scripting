@@ -6,7 +6,9 @@ const Container = styled('div')<{isActive:boolean}>`
     border:solid 1px black;
     border-radius: 10px;
     width:50vw;
+    min-Width: 270px;
     height:70vh;
+    min-height:600px;
     overflow:hidden;
     margin:30px auto;
     display:grid;
@@ -20,13 +22,6 @@ const Container = styled('div')<{isActive:boolean}>`
     #display{
         grid-area: display;
         position: relative;
-    }
-    #display h1{
-        position:absolute;
-        bottom:0;
-        right:0;
-        padding:5px;
-        font-size:4rem;
     }
     #sub-display{
         grid-area: sub-display;

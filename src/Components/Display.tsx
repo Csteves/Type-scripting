@@ -5,7 +5,7 @@ const Display: React.FunctionComponent<{
   current: String;
 }> = (props) => {
   return <div id="display">
-            <Count> {props.current} </Count>
+            <Count length={props.current.length}> {props.current} </Count>
         </div>;
 };
 
